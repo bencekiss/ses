@@ -1,0 +1,229 @@
+html{
+  font-size: 14px;
+  font-family: 'Exo 2', sans-serif;
+
+}
+img{
+  max-width: 100%;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* CLEARFIX - for ensuring floated elements are contained in their parent */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.site-header{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 0.75rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  height: 60px;
+  overflow: hidden;
+}
+site-nav{
+  overflow: hidden;
+}
+
+.site-nav-list{
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+}
+
+.site-nav-item{
+  float: left;
+  width: 14.2%;
+  height: 80px;
+  padding-top: 1.25rem;
+  text-align: center;
+
+  display: inline-block;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: #000000;
+
+}
+.site-logo-image{
+  max-width: 80%;
+  margin:-1.75rem 0 0 1rem;
+  padding-top: 0.5rem;
+
+}
+
+
+.site-nav-item > .fa {
+  font-size: 1.75rem;
+}
+
+.site-nav-item:hover {
+  background-color: #f3f3f3;
+  color: #535353;
+  cursor: pointer;
+}
+
+.site-nav-item-label:hover {
+  background-color: #f3f3f3;
+  text-decoration: none;
+  color: #535353;
+  cursor: pointer;
+}
+
+.site-nav-item-label {
+  display: block;
+  margin-top: 0.5em;
+}
+.site-nav-item-label-lg{
+  display: none;
+}
+.site-nav-item-label-sm{
+  display:block;
+  margin-top: 0.5em;
+}
+.site-nav-item-label-sm:hover {
+  background-color: #f3f3f3;
+  color: #535353;
+  cursor: pointer;
+}
+ul > li:first-child:hover{
+  background-color: #ffffff;
+
+}
+
+
+
+
+main{
+  margin-top:70px;
+  background-color: #f3f3f3;
+}
+
+.pic-lg{
+  display:none;
+}
+.intro,
+.cm,
+.rhs,
+.windows-doors{
+  display: block;
+  overflow: hidden;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid white;
+}
+.intro-pic,
+.cm-pic,
+.wd-pic,
+.rhs-pic{
+  float: left;
+  width: 40%;
+  display: inline-block;
+}
+
+.intro-pic img,
+.cm-pic img,
+.wd-pic img,
+.rhs-pic img{
+  padding:0.25rem 0;
+  margin-top: 0.25rem;
+  overflow: hidden;
+}
+
+.intro-details,
+.cm-details,
+.wd-details,
+.rhs-details{
+  float: right;
+  width: 60%;
+  display: inline-block;
+  margin: 0;
+  line-height: 1.1rem;
+}
+.intro-details p,
+.cm-details p,
+.wd-details p,
+.rhs-details p{
+  padding: 0.25rem;
+}
+
+
+
+.overview{
+  margin: 0;
+}
+.gallery{
+  float: right;
+  text-align: right;
+  padding: 0 0.25rem;
+}
+
+
+
+footer{
+  clear: both;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #f3f3f3;
+  background-color: #222222;
+}
+
+.footer-text{
+  float: left;
+  width: 50%;
+  /*overflow: hidden;*/
+  margin: 1rem 0;
+}
+
+.footer-text p {
+  /*float: left;
+  width: 50%;*/
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  /*display: inline-block;*/
+}
+/*.footer-text i{
+  float: right;
+  width: 50%;
+  padding: 0.25rem 0;
+  display: inline-block;
+  color: black;
+}*/
+.footer-icons{
+  float: right;
+  width: 50%;
+  overflow: hidden;
+}
+
+.footer-icons ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+.footer-icons li{
+  display: inline-block;
+  float: right;
+  width: 25%;
+
+}
+.footer-icons a{
+  text-decoration: none;
+  color: #f3f3f3;
+}
